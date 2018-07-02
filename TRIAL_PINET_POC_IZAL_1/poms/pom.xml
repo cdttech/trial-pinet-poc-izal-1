@@ -16,6 +16,7 @@
     <module>jobs/process/copy_of_testmysqlconn_134_0.1</module>
     <module>jobs/process_mr/spark_mapr01_0.1</module>
     <module>jobs/process_mr/spark_mapr02_0.1</module>
+    <module>jobs/process_mr/spark_mapr_0.1</module>
   </modules>
   <properties>
     <talend.project.name>TRIAL_PINET_POC_IZAL_1</talend.project.name>
