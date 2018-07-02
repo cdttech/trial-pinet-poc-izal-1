@@ -27,7 +27,7 @@
     <talend.pigudf.groupid>org.example.trial_pinet_poc_izal_1.pigudf</talend.pigudf.groupid>
     <talend.routine.groupid>org.example.trial_pinet_poc_izal_1.code</talend.routine.groupid>
     <current.bundle.resources.dir>${basedir}/src/main/bundle-resources</current.bundle.resources.dir>
-    <talend.job.jvmargs>-Xms256M -Xmx1024M -Dfile.encoding=UTF-8 </talend.job.jvmargs>
+    <talend.job.jvmargs>-Xms256M -Xmx1024M -Djava.security.auth.login.config=/opt/mapr/conf/mapr.login.conf -Dfile.encoding=UTF-8 </talend.job.jvmargs>
     <talend.project.branch>branches/developer_local</talend.project.branch>
     <talend.job.context>Default</talend.job.context>
     <talend.job.stat>true</talend.job.stat>
