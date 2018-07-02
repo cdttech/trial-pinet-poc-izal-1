@@ -288,13 +288,13 @@
     <elementParameter field="CHECK" name="VERTICA_CREATE_PROJECTION" show="false" value="true"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tCreateTable_1">
-      <column comment="" key="false" length="-1" name="merchant_type_id" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="merchant_id" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="merchant_name" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="merchant_city" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="merchant_address" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="merchant_zipcode" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="merchant_country" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="merchant_type_id" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="CHAR" type="id_Character" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="merchant_id" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="CHAR" type="id_Character" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="merchant_name" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="CHAR" type="id_Character" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="merchant_city" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="CHAR" type="id_Character" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="merchant_address" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="CHAR" type="id_Character" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="merchant_zipcode" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="CHAR" type="id_Character" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="merchant_country" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="CHAR" type="id_Character" usefulColumn="true"/>
     </metadata>
   </node>
   <subjob>
@@ -312,13 +312,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_72ceb2c4-56b2-4c92-8f37-b197c8c0ae73"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>8VjWetOKX5Xxx9YtXM1FNjMnNkY7Sb23g2PHt14+Jk8M/w1+F5Q0NrKe9Lpnz4ZF/rBunUlHqFdu
-ase5sdLOrg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_cef29fa6-91cf-4860-92fc-81be373b1c8c"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>3eMLKsQ2SxbUkk1umpJGKRv58TpOKq78EO/qSy8A/ZzaRtZkXS/oA2PEyOvmfKQyhwhfXTtBQStY
-qbs4OYa51g==</DigestValue></Reference></SignedInfo><SignatureValue>n+ht9smoK02clCWrOF5NabHY0wJkdADKoFKUwv3Z9aCgvaYnjp6Qwtkzrj/GADfK2TMGhBE6DoJ7
-Em83xg78N+pN4NjXUBvuwfgKEepzXXtdJQJfzf//9vzusg+mr7i6N5zGnW0FDMbOYODzYAprLIM1
-0Vg3aI9y3h/LtTgDIERhyb6KeBnbtTM8q/iRWmkZBS3eXBIX6kvGyJz+gquuqvEvJi2HuohIFt9B
-l0LZ340X87hMFeamTcPa/knoy0cc+pGeC8Z9hgEVjSKLaP4Mlfh12YYc9PtnJxtYqzEXJy0eXO4Y
-0oNJgV1GYtGe0wC/ucCCp7tV7YB9ZDKKN+VjSQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_3b263f56-5a88-4009-b467-e3d71d33ade9"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>M+X2QafJj+0VAnPiNFFrrpjnMLImjL0HL4d0MmXaC4u1AsH3Sk++l2xyI/1HsAECSQbp7O8OARHt
+jiDHnvF3DA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_15d33931-fca5-41b9-8b0d-eed68572f830"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>PQPuJjN3o8AB8NFD9J4lbzohBoBFBvOTkaIpIXzab6URA8ya/AzdAws63SIdFv9HNSFtbOKbg6g6
+58TzmeIjkg==</DigestValue></Reference></SignedInfo><SignatureValue>UKZq7ZU63ZZjhxwimKLsme43XhIFe7UcE5gz9j/F5n7rB3gzRdme4AA65V7pNK9nM8tSjo8Fnnze
+pP6t8GEJ1SLTuf/zGMtL5Dqj4JnnFsH/Gxri8exuQHNNHGeIy8qhvvxrrfzGm8uY6i0D3YNB3thX
+NiOZz7ilQn9cqtRAAGQgqan68QhMa7Evd8HzsNk1fSFdLCwuHfdQqcqrQIVf/UB+szDCUlvFF4F0
+t4B/ckwwtPS45LX2JAkuWz+uJ9Xp4vMudEJaI6NKuLyvewUqfMtAkKqaVh1y3Fo548DO0dv0TjwL
+YrbuCKCkv15vWjJErlPpC2BAt0jWO4raiKDlSA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
 BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im
 RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k
 LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD
@@ -342,4 +342,4 @@ r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s
 EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI
 BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c
 6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX
-Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_cef29fa6-91cf-4860-92fc-81be373b1c8c" Target="#_72ceb2c4-56b2-4c92-8f37-b197c8c0ae73"><Timestamp>2018-07-02 11:10:35</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_15d33931-fca5-41b9-8b0d-eed68572f830" Target="#_3b263f56-5a88-4009-b467-e3d71d33ade9"><Timestamp>2018-07-02 11:14:06</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
