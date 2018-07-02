@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Default" jobType="Standard" xmi:version="2.0">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="Default" jobType="Standard" xmi:version="2.0">
   <context confirmationNeeded="false" name="Default"/>
   <parameters>
-    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="192"/>
-    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="228"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="100"/>
     <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
     <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
     <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
@@ -111,7 +111,7 @@
     <routinesParameter id="_SbLUMHztEeicG5MFLFv4OA" name="TalendStringUtil"/>
     <routinesParameter id="_SbO-kHztEeicG5MFLFv4OA" name="TalendString"/>
   </parameters>
-  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="-96" posY="128">
+  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="-128" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputDelimited_1"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_nfy0cH4UEei25uY0cniCVg"/>
@@ -245,7 +245,74 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tHiveRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="-64" posY="32">
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="-64" posY="96">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_1"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_p4legH4ZEei25uY0cniCVg-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
+    <elementParameter field="TEXT" name="JACCARD" show="false" value="0"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="metadata" name="mapped_output_hive">
+      <column comment="" key="false" length="100" name="card_number" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Character" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="customer_number" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Character" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="product_type" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Character" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="trx_type" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Character" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="kategori_merchant" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Character" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="id_merchant" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Character" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="kota_merchant" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Character" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="kodepos_merchant" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Character" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="negara_merchant" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Character" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="currency" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Character" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="trxamount" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Character" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="merchant_types" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Character" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="merchant_groups" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Character" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="transaction_date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Character" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties shellMaximized="true"/>
+      <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
+      <outputTables name="mapped_output_hive" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="row1.card_number" name="card_number" nullable="true" type="id_Character"/>
+        <mapperTableEntries expression="row1.customer_number" name="customer_number" nullable="true" type="id_Character"/>
+        <mapperTableEntries expression="row1.product_type" name="product_type" nullable="true" type="id_Character"/>
+        <mapperTableEntries expression="row1.trx_type" name="trx_type" nullable="true" type="id_Character"/>
+        <mapperTableEntries expression="row1.kategori_merchant" name="kategori_merchant" nullable="true" type="id_Character"/>
+        <mapperTableEntries expression="row1.id_merchant" name="id_merchant" nullable="true" type="id_Character"/>
+        <mapperTableEntries expression="row1.kota_merchant" name="kota_merchant" nullable="true" type="id_Character"/>
+        <mapperTableEntries expression="row1.kodepos_merchant" name="kodepos_merchant" nullable="true" type="id_Character"/>
+        <mapperTableEntries expression="row1.negara_merchant" name="negara_merchant" nullable="true" type="id_Character"/>
+        <mapperTableEntries expression="row1.currency" name="currency" nullable="true" type="id_Character"/>
+        <mapperTableEntries expression="row1.trxamount" name="trxamount" nullable="true" type="id_Character"/>
+        <mapperTableEntries expression="row1.merchant_types" name="merchant_types" nullable="true" type="id_Character"/>
+        <mapperTableEntries expression="row1.merchant_groups" name="merchant_groups" nullable="true" type="id_Character"/>
+        <mapperTableEntries expression="row1.transaction_date" name="transaction_date" nullable="true" type="id_Character"/>
+      </outputTables>
+      <inputTables lookupMode="LOAD_ONCE" matchingMode="ALL_ROWS" name="row1" sizeState="INTERMEDIATE">
+        <mapperTableEntries name="card_number" nullable="true" type="id_Character"/>
+        <mapperTableEntries name="customer_number" nullable="true" type="id_Character"/>
+        <mapperTableEntries name="product_type" nullable="true" type="id_Character"/>
+        <mapperTableEntries name="trx_type" nullable="true" type="id_Character"/>
+        <mapperTableEntries name="kategori_merchant" nullable="true" type="id_Character"/>
+        <mapperTableEntries name="id_merchant" nullable="true" type="id_Character"/>
+        <mapperTableEntries name="kota_merchant" nullable="true" type="id_Character"/>
+        <mapperTableEntries name="kodepos_merchant" nullable="true" type="id_Character"/>
+        <mapperTableEntries name="negara_merchant" nullable="true" type="id_Character"/>
+        <mapperTableEntries name="currency" nullable="true" type="id_Character"/>
+        <mapperTableEntries name="trxamount" nullable="true" type="id_Character"/>
+        <mapperTableEntries name="merchant_types" nullable="true" type="id_Character"/>
+        <mapperTableEntries name="merchant_groups" nullable="true" type="id_Character"/>
+        <mapperTableEntries name="transaction_date" nullable="true" type="id_Character"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tHiveRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="-192" posY="-32">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tHiveRow_1"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
@@ -461,9 +528,13 @@
       <column comment="" key="false" length="100" name="transaction_date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Character" usefulColumn="true"/>
     </metadata>
   </node>
-  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFileInputDelimited_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_1" target="tHiveRow_1">
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFileInputDelimited_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_1" target="tMap_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
+  </connection>
+  <connection connectorName="FLOW" label="mapped_output_hive" lineStyle="0" metaname="mapped_output_hive" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tHiveRow_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="mapped_output_hive"/>
   </connection>
   <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tHiveRow_1" offsetLabelX="0" offsetLabelY="0" source="tHiveRow_1" target="tLogRow_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
@@ -474,13 +545,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_92b34cb4-8922-414d-b699-9307eb792a82"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>uNvzuL++WGushhL5x9DFkwBYBsgviBp6ICumRhyzidCkJL1WrUtSXy7RQSd9ncNHj6EQi3TkVtsC
-9hPU0SUXrg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_e6521c86-79db-4ff5-b66b-77388913784e"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>3ziA7ztEkSCSIzjc54q6LObj+TV0W6u/SP0yC2509AkclXD/EUYXDaKQfB3AH2j0VVmMVNDI+3AC
-lSLZAaq9CA==</DigestValue></Reference></SignedInfo><SignatureValue>grsja2QH1frJJshV1JpC+gP3P8E6wOUohTsCrQdZQmvYx4aZDO9dQJUx1fwOjeLV8iT+JY6WtJAZ
-9VIWvaxmAMzO1wpaLcV0EW+UNhMNlAXFHF4lL4/YBr1M0g5hn8YMaVW2UPP6eT0cE6hCCT0oG9jk
-steF5+akWfZ7xU/rPrFyYVtVIBysusfJ1L3dvheJbir7x9puC71FXdBdq1Ow8rBRP4XyV7savB6x
-4EjLE9A/1bLAGkHfDtrU5Xt3FunoeAgEOjwKhAkYW4X6InfEIMKF/dp0uSqNJCT0RRAlyKHrCxZX
-C5KWwlgkjmeBrFmXtBju+2sKboajc0zM4VBZmQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_76d81017-7fcc-4730-a186-91946083d07a"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>wWpVqft2D9UUmS1REJWlRxvo4IGVon2geIDTxhCUqUY9n/yvU7qAnD6ChIuQtnrefoE8MaErVDpM
+YIoKRzCXWQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_a490d696-370c-44f3-bd2f-53dfa9df7316"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>u7CNK63xDhbqjJYGm7AUH7pVhKIIO42EPQAbDCdmLaeHblF2/nxGm+mz+sxDhis1iTGGHM4WTbJ5
+NVjByLvqoA==</DigestValue></Reference></SignedInfo><SignatureValue>E6rTuTcD+TDS/qMmmYW4pbNk3KYNSBerRRHEo5ianEV3bw+gSUkZ4BAtlpZvkAsgA+PPpv1/utxG
+5Suk37hH2R00s0yVFUmSz8Nqtti2im1CNk1sMlLsHg17tFErfG6DLhjrTRcDJBEkqXt1AXQxz6Pp
+3jXH1ggljsHjGGPDknCmBIs97anTTvB8q1GEbW1lY2D1Xy7fEMYBHg+wD90qC8e2hNRTKZcOhLLX
+SEtv25ZmdK8sZ/r/80B4mqoTRKlStFMDg8eNIrkAK7kwSPuRgns/MAS8qLjSvd7cyc6ykGZojS8A
+ufz+HyYnUWIHvKeabyEVrErirObn0s99OBA5cA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
 BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im
 RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k
 LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD
@@ -504,4 +575,4 @@ r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s
 EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI
 BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c
 6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX
-Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_e6521c86-79db-4ff5-b66b-77388913784e" Target="#_92b34cb4-8922-414d-b699-9307eb792a82"><Timestamp>2018-07-02 16:46:16</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_a490d696-370c-44f3-bd2f-53dfa9df7316" Target="#_76d81017-7fcc-4730-a186-91946083d07a"><Timestamp>2018-07-02 16:50:06</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
