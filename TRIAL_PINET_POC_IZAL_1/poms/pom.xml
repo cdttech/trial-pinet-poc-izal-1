@@ -19,9 +19,9 @@
     <module>jobs/process_mr/spark_mapr_0.1</module>
     <module>jobs/process/load_file_to_oracle_0.1</module>
     <module>jobs/process/connectoracle_0.1</module>
-    <module>jobs/process/copy_file_to_nfs_0.1</module>
     <module>jobs/process/load_file_to_hive_0.1</module>
     <module>jobs/process/load_to_hive_0.1</module>
+    <module>jobs/process/poc_cimb/copy_file_to_nfs_0.1</module>
   </modules>
   <properties>
     <talend.project.name>TRIAL_PINET_POC_IZAL_1</talend.project.name>
