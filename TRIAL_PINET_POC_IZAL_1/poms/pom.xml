@@ -26,6 +26,7 @@
     <module>jobs/process/poc_cimb/merchant_table_load_to_hive_0.1</module>
     <module>jobs/process/poc_cimb/t_card_transaction_hive_0.1</module>
     <module>jobs/process/read_input_delimited_0.1</module>
+    <module>jobs/process/elt_hive_load_to_0.1</module>
   </modules>
   <properties>
     <talend.project.name>TRIAL_PINET_POC_IZAL_1</talend.project.name>
