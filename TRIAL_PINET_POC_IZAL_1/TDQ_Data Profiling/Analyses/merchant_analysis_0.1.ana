@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.analysis:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.analysis="http://dataquality.analysis" xmi:id="_ficX0H4eEei25uY0cniCVg" name="merchant_analysis" creationDate="2018-07-03T01:06:46.518+0800">
+  <taggedValue xmi:id="_ficX0X4eEei25uY0cniCVg" tag="Status" value="development"/>
+  <taggedValue xmi:id="_ficX0n4eEei25uY0cniCVg" tag="Author" value="mczal@cdttech.com"/>
+  <taggedValue xmi:id="_ficX034eEei25uY0cniCVg" tag="Purpose"/>
+  <taggedValue xmi:id="_ficX1H4eEei25uY0cniCVg" tag="Description"/>
+  <taggedValue xmi:id="_ficX1X4eEei25uY0cniCVg" tag="Version" value="0.1"/>
+  <context xmi:id="_ficX1n4eEei25uY0cniCVg"/>
+  <results xmi:id="_ficX134eEei25uY0cniCVg">
+    <resultMetadata xmi:id="_ficX2H4eEei25uY0cniCVg"/>
+  </results>
+  <parameters xmi:id="_ficX2X4eEei25uY0cniCVg" analysisType="Multiple Column Analysis"/>
+</dataquality.analysis:Analysis>
