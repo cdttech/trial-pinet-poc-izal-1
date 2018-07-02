@@ -308,7 +308,6 @@
       <relatedItems xmi:id="_XOiC8H4IEei25uY0cniCVg" id="DataQualityDependencies" version="Latest" type="routine"/>
       <relatedItems xmi:id="_XOiC8X4IEei25uY0cniCVg" id="TalendStringUtil" version="Latest" type="routine"/>
       <relatedItems xmi:id="_XOiC8n4IEei25uY0cniCVg" id="_Lstd8H3mEeiI6dEXDZHd4Q - MERCHANT_TABLE" version="Latest" type="schema"/>
-      <relatedItems xmi:id="_34HSQH4KEei25uY0cniCVg" id="_d87_MH1FEeidSeA2txrKjw" version="Latest" type="property"/>
     </ItemsRelations>
     <ItemsRelations xmi:id="_i-il4H4LEei25uY0cniCVg">
       <baseItem xmi:id="_i-il4X4LEei25uY0cniCVg" id="_i-Pq8H4LEei25uY0cniCVg" version="0.1" type="job"/>

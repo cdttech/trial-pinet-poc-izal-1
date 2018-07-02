@@ -263,118 +263,6 @@
       <column comment="" key="false" length="10" name="company_code" nullable="true" originalLength="10" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tHiveLoad" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="64" posY="160">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tHiveLoad_1"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_d87_MH1FEeidSeA2txrKjw"/>
-    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
-    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
-    <elementParameter field="CLOSED_LIST" name="DISTRIBUTION" value="MAPR"/>
-    <elementParameter field="CLOSED_LIST" name="HIVE_VERSION" value="MAPR600"/>
-    <elementParameter field="HADOOP_DISTRIBUTION" name="HIVE" value=""/>
-    <elementParameter field="HADOOP_JARS_DIALOG" name="HADOOP_CUSTOM_JARS" show="false" value=""/>
-    <elementParameter field="CHECK" name="USE_YARN" show="false" value="true"/>
-    <elementParameter field="CHECK" name="CROSS_PLATFORM_SUBMISSION" show="false" value="false"/>
-    <elementParameter field="CLOSED_LIST" name="CONNECTION_MODE" value="STANDALONE"/>
-    <elementParameter field="CLOSED_LIST" name="HIVE_SERVER" value="HIVE2"/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;cimb-44-2&quot;"/>
-    <elementParameter field="TEXT" name="PORT" value="&quot;10000&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;default&quot;"/>
-    <elementParameter field="TEXT" name="TYPE" show="false" value="HIVE"/>
-    <elementParameter field="TEXT" name="USER" value="&quot;mapr&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="QjgUF3SPwrVotTE6os20NQ=="/>
-    <elementParameter field="TEXT" name="HIVE_ADDITIONAL_JDBC" value="&quot;&quot;"/>
-    <elementParameter field="CHECK" name="USE_KRB" value="false"/>
-    <elementParameter field="TEXT" name="HIVE_PRINCIPAL" show="false" value="&quot;hive/_HOST@EXAMPLE.COM&quot;"/>
-    <elementParameter field="TEXT" name="HIVESERVER2_LOCAL_PRINCIPAL" show="false" value="&quot;hiveServer2User@EXAMPLE.COM&quot;"/>
-    <elementParameter field="FILE" name="HIVESERVER2_LOCAL_KEYTAB" show="false" value="&quot;/tmp/hiveServer2User.keytab&quot;"/>
-    <elementParameter field="TEXT" name="NAMENODE_PRINCIPAL" show="false" value="&quot;nn/_HOST@EXAMPLE.COM&quot;"/>
-    <elementParameter field="TEXT" name="JOBTRACKER_PRINCIPAL" show="false" value="&quot;jt/_HOST@EXAMPLE.COM&quot;"/>
-    <elementParameter field="TEXT" name="RESOURCEMANAGER_PRINCIPAL" show="false" value="&quot;yarn/_HOST@EXAMPLE.COM&quot;"/>
-    <elementParameter field="TEXT" name="METASTORE_JDBC_URL" show="false" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="METASTORE_CLASSNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="METASTORE_USERNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="METASTORE_PASSWORD" show="false" value="0RMsyjmybrE="/>
-    <elementParameter field="CHECK" name="USE_KEYTAB" show="false" value="false"/>
-    <elementParameter field="TEXT" name="PRINCIPAL" show="false" value="&quot;&quot;"/>
-    <elementParameter field="FILE" name="KEYTAB_PATH" show="false" value="&quot;&quot;"/>
-    <elementParameter field="CHECK" name="USE_MAPRTICKET" value="false"/>
-    <elementParameter field="TEXT" name="MAPRTICKET_USERNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="MAPRTICKET_PASSWORD" show="false" value="0RMsyjmybrE="/>
-    <elementParameter field="TEXT" name="MAPRTICKET_CLUSTER" show="false" value="&quot;demo.mapr.com&quot;"/>
-    <elementParameter field="TEXT" name="MAPRTICKET_DURATION" show="false" value="86400L"/>
-    <elementParameter field="CHECK" name="USE_SSL" show="false" value="false"/>
-    <elementParameter field="FILE" name="SSL_TRUST_STORE" show="false" value="&quot;/home/usr1/ssl/trust_store.jks&quot;"/>
-    <elementParameter field="PASSWORD" name="SSL_TRUST_STORE_PASSWORD" show="false" value="crKjNM+/KPoSQfCGt+RqAg=="/>
-    <elementParameter field="CHECK" name="SET_MAPRED_JT" show="false" value="false"/>
-    <elementParameter field="TEXT" name="MAPRED_JT" show="false" value="&quot;localhost:8032&quot;"/>
-    <elementParameter field="CHECK" name="SET_RESOURCE_MANAGER" value="false"/>
-    <elementParameter field="TEXT" name="RESOURCE_MANAGER" show="false" value="&quot;localhost:8032&quot;"/>
-    <elementParameter field="CHECK" name="SET_FS_DEFAULT_NAME" value="false"/>
-    <elementParameter field="TEXT" name="FS_DEFAULT_NAME" show="false" value="&quot;hdfs://localhost:8020&quot;"/>
-    <elementParameter field="CHECK" name="SET_SCHEDULER_ADDRESS" value="false"/>
-    <elementParameter field="TEXT" name="RESOURCEMANAGER_SCHEDULER_ADDRESS" show="false" value="&quot;localhost:8030&quot;"/>
-    <elementParameter field="CHECK" name="SET_JOBHISTORY_ADDRESS" value="false"/>
-    <elementParameter field="TEXT" name="JOBHISTORY_ADDRESS" show="false" value="&quot;localhost:10020&quot;"/>
-    <elementParameter field="CHECK" name="SET_HADOOP_USER" value="false"/>
-    <elementParameter field="TEXT" name="HADOOP_USER" show="false" value="&quot;hadoop&quot;"/>
-    <elementParameter field="CHECK" name="USE_DATANODE_HOSTNAME" value="true"/>
-    <elementParameter field="TEXT" name="WEBHCAT_HOST" show="false" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="WEBHCAT_PORT" show="false" value="&quot;443&quot;"/>
-    <elementParameter field="TEXT" name="WEBHCAT_USERNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="STATUSDIR" show="false" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="HDINSIGHT_USERNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="HDINSIGHT_PASSWORD" show="false" value="0RMsyjmybrE="/>
-    <elementParameter field="TEXT" name="WASB_HOST" show="false" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="WASB_CONTAINER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="WASB_USERNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="WASB_PASSWORD" show="false" value="0RMsyjmybrE="/>
-    <elementParameter field="TEXT" name="REMOTE_FOLDER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="GOOGLE_PROJECT_ID" show="false" value="&quot;my-google-project&quot;"/>
-    <elementParameter field="TEXT" name="GOOGLE_CLUSTER_ID" show="false" value="&quot;my-cluster-id&quot;"/>
-    <elementParameter field="TEXT" name="GOOGLE_REGION" show="false" value="&quot;global&quot;"/>
-    <elementParameter field="TEXT" name="GOOGLE_JARS_BUCKET" show="false" value="&quot;gs://my-bucket/talend/jars&quot;"/>
-    <elementParameter field="CHECK" name="DEFINE_PATH_TO_GOOGLE_CREDENTIALS" show="false" value="false"/>
-    <elementParameter field="TEXT" name="PATH_TO_GOOGLE_CREDENTIALS" show="false" value="&quot;&quot;"/>
-    <elementParameter field="CLOSED_LIST" name="LOAD_ACTION" value="LOAD"/>
-    <elementParameter field="CLOSED_LIST" name="EXECUTION_ENGINE" show="false" value="mr"/>
-    <elementParameter field="CLOSED_LIST" name="TARGET" show="false" value="TABLE"/>
-    <elementParameter field="TEXT" name="FILEPATH" value="&quot;/mapr/primestor.cimb/user/pinet/merchant_master&quot;"/>
-    <elementParameter field="DBTABLE" name="TABLE" value="&quot;merchant_table&quot;"/>
-    <elementParameter field="LABEL" name="PARQUET_NOTE" show="false" value="Parquet is only supported if the distribution uses embedded&#10;&#9;&#9;&#9;&#9;Hive version 0.10 or later.&#10;&#9;&#9;&#9;"/>
-    <elementParameter field="CHECK" name="TARGET_TABLE_IS_A_PARQUET_TABLE" value="false"/>
-    <elementParameter field="CLOSED_LIST" name="PARQUET_COMPRESSION" show="false" value="UNCOMPRESSED"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" show="false" value="&quot;select id, name from employee&quot;"/>
-    <elementParameter field="CLOSED_LIST" name="FILE_ACTION" value="APPEND"/>
-    <elementParameter field="CHECK" name="LOCAL" value="false"/>
-    <elementParameter field="CHECK" name="SET_PARTITIONS" value="false"/>
-    <elementParameter field="TEXT" name="PARTITION" show="false" value="&quot;&quot;"/>
-    <elementParameter field="CHECK" name="CREATE_IF_NOT_EXIST" show="false" value="false"/>
-    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
-    <elementParameter field="CLOSED_LIST" name="TEZ_LIB" show="false" value="INSTALL"/>
-    <elementParameter field="DIRECTORY_HADOOP" name="TEZ_LIB_FOLDER" show="false" value="&quot;/tmp/{USERNAME}/talend_tez_libs/{custom|HIVE_VERSION}&quot;"/>
-    <elementParameter field="TEXT" name="GROUP" show="false" value="&quot;supergroup&quot;"/>
-    <elementParameter field="TEXT" name="TEZ_JARS_NAME" show="false" value="avro-1.5.4.jar,commons-cli-1.2.jar,commons-collections4-4.0.jar,guava-11.0.2.jar,guice-3.0.jar,hadoop-mapreduce-client-common-2.4.0.2.1.1.0-385.jar,hadoop-mapreduce-client-core-2.4.0.2.1.1.0-385.jar,hadoop-mapreduce-client-shuffle-2.4.0.2.1.1.0-385.jar,jettison-1.3.4.jar,protobuf-java-2.5.0.jar,snappy-java-1.0.4.1.jar,tez-api-0.4.0.2.1.1.0-385.jar,tez-common-0.4.0.2.1.1.0-385.jar,tez-dag-0.4.0.2.1.1.0-385.jar,tez-mapreduce-0.4.0.2.1.1.0-385.jar,tez-mapreduce-examples-0.4.0.2.1.1.0-385.jar,tez-runtime-internals-0.4.0.2.1.1.0-385.jar,tez-runtime-library-0.4.0.2.1.1.0-385.jar,tez-tests-0.4.0.2.1.1.0-385.jar,commons-lang3-3.0.jar"/>
-    <elementParameter field="BOTH_HADOOP" name="TEZ_LIB_PATH" show="false" value="&quot;&quot;"/>
-    <elementParameter field="TABLE" name="TEZ_LIB_NAME" show="false"/>
-    <elementParameter field="LABEL" name="NOTE" value="If you are on Windows, add a '/' in front of the path you type in."/>
-    <elementParameter field="CHECK" name="SET_TEMP_PATH" value="false"/>
-    <elementParameter field="DIRECTORY" name="TEMP_PATH" show="false" value="&quot;&quot;"/>
-    <elementParameter field="TABLE" name="HADOOP_ADVANCED_PROPERTIES"/>
-    <elementParameter field="TABLE" name="ADVANCED_PROPERTIES"/>
-    <elementParameter field="TEXT" name="MAPRED_JOB_MAP_MEMORY_MB" show="false" value="&quot;1000&quot;"/>
-    <elementParameter field="TEXT" name="MAPRED_JOB_REDUCE_MEMORY_MB" show="false" value="&quot;1000&quot;"/>
-    <elementParameter field="CHECK" name="SET_MEMORY" value="false"/>
-    <elementParameter field="TEXT" name="MAPREDUCE_MAP_MEMORY_MB" show="false" value="&quot;1024&quot;"/>
-    <elementParameter field="TEXT" name="MAPREDUCE_REDUCE_MEMORY_MB" show="false" value="&quot;1024&quot;"/>
-    <elementParameter field="TEXT" name="YARN_APP_MAPREDUCE_AM_RESOURCE_MB" show="false" value="&quot;1024&quot;"/>
-    <elementParameter field="TEXT" name="CLASSPATH_SEPARATOR" value="&quot;:&quot;"/>
-    <elementParameter field="CHECK" name="SET_MAPR_HOME_DIR" show="false" value="false"/>
-    <elementParameter field="TEXT" name="MAPR_HOME_DIR" show="false" value="&quot;/opt/mapr&quot;"/>
-    <elementParameter field="CHECK" name="SET_HADOOP_LOGIN" show="false" value="false"/>
-    <elementParameter field="TEXT" name="HADOOP_LOGIN" show="false" value="&quot;kerberos&quot;"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-  </node>
   <connection connectorName="MAIN" label="row1" lineStyle="0" metaname="MAIN" offsetLabelX="0" offsetLabelY="0" source="tDBInput_1" target="tMap_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
@@ -388,26 +276,18 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="output_map"/>
   </connection>
-  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tFileOutputDelimited_1" offsetLabelX="0" offsetLabelY="0" source="tFileOutputDelimited_1" target="tHiveLoad_1">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk1"/>
-  </connection>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_1"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-  <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tHiveLoad_1"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
-  </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_3ab1ab6d-bd6d-4a75-b7fa-cb065acf2ac3"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>/fYKpnS0fQeh8e5nJGU+ClGW6Z5QLtOh0pwwvfbPpi6uzgSclsnTWwO3Nsr5TDgWiiFN84mXoLbG
-m3pG4u8OAw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_bc702e23-a2aa-4311-ae0c-101c54e79b98"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>VMtaWLzBy0y2KtlzVEPl5aM5M74LzE/JUztC4Z1szUg7VeQ4KtgFzj3zloInepUUheirOIwZvEP9
-Ap0kZHFjXQ==</DigestValue></Reference></SignedInfo><SignatureValue>QxhbD+ahIW7UMJA9Biw+rAjG5r3TUaIvdD4cNeVd2PVYiF5FLr0zUyAUcECYe0iCgq0/J6VfUqSF
-gTv16ZxFzfJg2OuWq11yMq1SlmGFYIDim2jh0ue4SHOkxqCkqHR0u9xQ4WmrLYidA842QmQCwN7Q
-sj2ET4Y0pZTFE0z88iDEM0IVBDrtAa4rm9nD20lVUQaQiidEXPqgMM2PDSWY3ZHEj0t1qB9o4Tx1
-3v5aFBYn94ZYrKzonZ2ami9SzdrnbZcUkEiJMkxAzau1u354CksFbXtsjRTOhvXnSHUebX8NiGw3
-v6kKCwDIjpD219e1SXCJFlPijbt5Y2T6x4GjDg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_13139bc8-e3ec-41f2-8fb7-cd6e3a16290f"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>HL+6w//inXXJwq/GlEPFsamhzRwVeECL7mCvbY7k88qRUpyL0uxfczkkHvZsWBHOSfyqAsrBUQgO
+AlYUg0tvFA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_8ebfdd16-28a7-4aa3-a6ad-c70c79be4bfa"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Vd4PGDlZLlyncW90vM5rR3KZzheBsKRgeg8AZfeuqT0AnZzoQUPB2wiRaU/Px1SJp32QWvdELhrC
+rpIahNspgg==</DigestValue></Reference></SignedInfo><SignatureValue>0GQaFhJm4M4GdoBmNcplsVzOj9V3sRAu5AfM3NRHerqd3IvgdLIPaCGxSuBXfQOXcsF6aMhjrt5m
+uu6WZ9ncqDF0mW2zR1wYf7/7y0CxSI0IP+md8fCuht8lPD+PgnhP5E+S1r+jnSi5i9D2umFsYdLJ
+6xTgmKDxwYGZRiVH/GjRqUydTsmn4WAr4IkVD5PYyMwJepOzNQqiGq0hpAyyEDNcu8cAMrHNDkA8
+G6DaTCV8VVP2Z968QoTsCyxBdCAdSyumrRHfSrg7iEsTmoxTqTtLeBjFq38NjB3Ad3boHz8YPuG0
+kXYfZ8HEn/GUsSQTx82V+rs9pK3ckbNmzotPzA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
 BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im
 RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k
 LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD
@@ -431,4 +311,4 @@ r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s
 EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI
 BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c
 6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX
-Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_bc702e23-a2aa-4311-ae0c-101c54e79b98" Target="#_3ab1ab6d-bd6d-4a75-b7fa-cb065acf2ac3"><Timestamp>2018-07-02 14:56:49</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_8ebfdd16-28a7-4aa3-a6ad-c70c79be4bfa" Target="#_13139bc8-e3ec-41f2-8fb7-cd6e3a16290f"><Timestamp>2018-07-02 14:57:54</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
