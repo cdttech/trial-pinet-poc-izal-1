@@ -7,17 +7,17 @@
   <taggedValue xmi:id="_bu2fhH4gEei25uY0cniCVg" tag="Description" value=""/>
   <taggedValue xmi:id="_bu2fhX4gEei25uY0cniCVg" tag="Version" value="0.1"/>
   <taggedValue xmi:id="_bu2fhn4gEei25uY0cniCVg" tag="OutputFolder" value="/root"/>
-  <taggedValue xmi:id="_bu2fh34gEei25uY0cniCVg" tag="REP_DBINFO_DBTYPE" value="HSQL"/>
-  <taggedValue xmi:id="_bu2fiH4gEei25uY0cniCVg" tag="REP_DBINFO_DBVERSION" value=""/>
-  <taggedValue xmi:id="_bu2fiX4gEei25uY0cniCVg" tag="REP_DBINFO_HOST" value=""/>
-  <taggedValue xmi:id="_bu2fin4gEei25uY0cniCVg" tag="REP_DBINFO_PORT" value=""/>
+  <taggedValue xmi:id="_bu2fh34gEei25uY0cniCVg" tag="REP_DBINFO_DBTYPE" value="MySQL"/>
+  <taggedValue xmi:id="_bu2fiH4gEei25uY0cniCVg" tag="REP_DBINFO_DBVERSION" value="MYSQL_5"/>
+  <taggedValue xmi:id="_bu2fiX4gEei25uY0cniCVg" tag="REP_DBINFO_HOST" value="10.85.232.134"/>
+  <taggedValue xmi:id="_bu2fin4gEei25uY0cniCVg" tag="REP_DBINFO_PORT" value="3306"/>
   <taggedValue xmi:id="_bu2fi34gEei25uY0cniCVg" tag="REP_DBINFO_DBNAME" value="talend_dq"/>
   <taggedValue xmi:id="_bu2fjH4gEei25uY0cniCVg" tag="REP_DBINFO_SCHEMA" value=""/>
-  <taggedValue xmi:id="_bu2fjX4gEei25uY0cniCVg" tag="REP_DBINFO_USER" value="sa"/>
-  <taggedValue xmi:id="_bu2fjn4gEei25uY0cniCVg" tag="REP_DBINFO_PASSWORD" value="yJKHKGWEAQw="/>
-  <taggedValue xmi:id="_bu2fj34gEei25uY0cniCVg" tag="REP_DBINFO_URL" value="jdbc:hsqldb:file://root/workspace/TDQ_reporting_db/talend_dq"/>
-  <taggedValue xmi:id="_bu2fkH4gEei25uY0cniCVg" tag="REP_DBINFO_DRIVER" value="org.hsqldb.jdbcDriver"/>
-  <taggedValue xmi:id="_bu2fkX4gEei25uY0cniCVg" tag="REP_DBINFO_DIALECT" value="org.hibernate.dialect.HSQLDialect"/>
+  <taggedValue xmi:id="_bu2fjX4gEei25uY0cniCVg" tag="REP_DBINFO_USER" value="root"/>
+  <taggedValue xmi:id="_bu2fjn4gEei25uY0cniCVg" tag="REP_DBINFO_PASSWORD" value="NZNgK6DuncI="/>
+  <taggedValue xmi:id="_bu2fj34gEei25uY0cniCVg" tag="REP_DBINFO_URL" value="jdbc:mysql://10.85.232.134:3306/talend_dq?characterEncoding=UTF8"/>
+  <taggedValue xmi:id="_bu2fkH4gEei25uY0cniCVg" tag="REP_DBINFO_DRIVER" value="org.gjt.mm.mysql.Driver"/>
+  <taggedValue xmi:id="_bu2fkX4gEei25uY0cniCVg" tag="REP_DBINFO_DIALECT" value="org.hibernate.dialect.MySQLDialect"/>
   <taggedValue xmi:id="_bu2fkn4gEei25uY0cniCVg" tag="REP_PASSWORD_CONTEXT" value="false"/>
   <taggedValue xmi:id="_nVhnsH4gEei25uY0cniCVg" tag="OutputFileName" value="merchant_reports"/>
   <taggedValue xmi:id="_nVhnsX4gEei25uY0cniCVg" tag="Single output" value="false"/>
