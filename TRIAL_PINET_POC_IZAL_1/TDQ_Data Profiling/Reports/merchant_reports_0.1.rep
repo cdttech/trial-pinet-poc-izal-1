@@ -27,5 +27,6 @@
   <analysisMap xmi:id="_nVkrAH4gEei25uY0cniCVg" mustRefresh="true" reportType="Basic">
     <analysis href="../Analyses/merchant_analysis_0.1.ana#_ficX0H4eEei25uY0cniCVg"/>
   </analysisMap>
+  <ExecInformations xmi:id="_zmueIH4hEei25uY0cniCVg" executionDate="2018-07-03T01:30:28.861+0800" executionDuration="837" executionNumber="1" lastRunOk="true" lastExecutionNumberOk="1"/>
   <context xmi:id="_nVi10H4gEei25uY0cniCVg" confirmationNeeded="false" name="Default"/>
 </dataquality.reports:TdReport>
