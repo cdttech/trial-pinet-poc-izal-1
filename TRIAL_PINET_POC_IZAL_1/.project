@@ -10,4 +10,11 @@
 		<nature>org.talend.core.talendnature</nature>
 		<nature>com.oaklandsw.transform.runtime.nature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>.merchant_reports-20180703-0130-00032.pdf</name>
+			<type>1</type>
+			<location>/root/merchant_reports-20180703-0130-00032.pdf</location>
+		</link>
+	</linkedResources>
 </projectDescription>
