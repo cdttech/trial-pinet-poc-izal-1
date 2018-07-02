@@ -20,6 +20,7 @@
     <module>jobs/process/load_file_to_oracle_0.1</module>
     <module>jobs/process/connectoracle_0.1</module>
     <module>jobs/process/copy_file_to_nfs_0.1</module>
+    <module>jobs/process/load_file_to_hive_0.1</module>
   </modules>
   <properties>
     <talend.project.name>TRIAL_PINET_POC_IZAL_1</talend.project.name>
