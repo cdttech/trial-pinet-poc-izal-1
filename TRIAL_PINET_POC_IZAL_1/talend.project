@@ -106,8 +106,6 @@
     </ItemsRelations>
     <ItemsRelations xmi:id="_FEpLwH1MEeidSeA2txrKjw">
       <baseItem xmi:id="_FEpLwX1MEeidSeA2txrKjw" id="_ps7UEH1IEeidSeA2txrKjw" version="0.1" type="job"/>
-      <relatedItems xmi:id="_FEpLwn1MEeidSeA2txrKjw" id="_d87_MH1FEeidSeA2txrKjw" version="Latest" type="property"/>
-      <relatedItems xmi:id="_FEpLw31MEeidSeA2txrKjw" id="_l8grkH1KEeidSeA2txrKjw" version="Latest" type="property"/>
       <relatedItems xmi:id="_FEpLxH1MEeidSeA2txrKjw" id="SQLike" version="Latest" type="routine"/>
       <relatedItems xmi:id="_FEpLxX1MEeidSeA2txrKjw" id="Numeric" version="Latest" type="routine"/>
       <relatedItems xmi:id="_FEpLxn1MEeidSeA2txrKjw" id="TalendString" version="Latest" type="routine"/>
