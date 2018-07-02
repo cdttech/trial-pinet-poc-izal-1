@@ -29,6 +29,7 @@
     <module>jobs/process/elt_hive_load_to_0.1</module>
     <module>jobs/process_mr/hive_load_0.1</module>
     <module>jobs/process_mr/hive_load_2_0.1</module>
+    <module>jobs/process/hive_coba_1_0.1</module>
   </modules>
   <properties>
     <talend.project.name>TRIAL_PINET_POC_IZAL_1</talend.project.name>
