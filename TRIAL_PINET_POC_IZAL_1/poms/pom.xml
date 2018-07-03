@@ -19,7 +19,6 @@
     <module>jobs/process_mr/spark_mapr_0.1</module>
     <module>jobs/process/connectoracle_0.1</module>
     <module>jobs/process/load_file_to_hive_0.1</module>
-    <module>jobs/process/poc_cimb/load_file_to_oracle_0.1</module>
     <module>jobs/process/poc_cimb/load_to_hive_0.1</module>
     <module>jobs/process/poc_cimb/load_merchant_from_oracle_to_hive_0.1</module>
     <module>jobs/process/poc_cimb/merchant_table_load_to_hive_0.1</module>
@@ -30,6 +29,7 @@
     <module>jobs/process_mr/hive_load_2_0.1</module>
     <module>jobs/process/hive_coba_1_0.1</module>
     <module>jobs/process/poc_cimb/upload_local_to_mounted_nfs_0.1</module>
+    <module>jobs/process/poc_cimb/to_oracle_from_files_0.1</module>
   </modules>
   <properties>
     <talend.project.name>TRIAL_PINET_POC_IZAL_1</talend.project.name>
