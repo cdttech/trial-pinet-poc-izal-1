@@ -30,6 +30,7 @@
     <module>jobs/process/poc_cimb/upload_local_to_mounted_nfs_0.1</module>
     <module>jobs/process/poc_cimb/to_oracle_from_files_0.1</module>
     <module>jobs/process/poc_cimb/transform_capability_0.1</module>
+    <module>jobs/process/poc_cimb/scheduled_simple_job_0.1</module>
   </modules>
   <properties>
     <talend.project.name>TRIAL_PINET_POC_IZAL_1</talend.project.name>
